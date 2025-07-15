@@ -37,7 +37,7 @@ Os dados extraídos — como fornecedor, número da nota, valor do frete, valor 
 
 ![Modelo Planilha](imgs/modelo_planilha.png)
 
-![Planilha Final](imgs/execucao_script.png)
+![Planilha Final](imgs/planilha_final.png)
 
 
 ## 🧪 Como executar o projeto localmente
@@ -66,11 +66,11 @@ venv\Scripts\activate
 > Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 > ```
 
-3. **Clone este repositório (requer o Git instalado):**
+3. **Clone este repositório(requer o Git instalado) e navegue até a pasta correta:**
 
 ```bash
 git clone https://github.com/nicolasandreos/Prontuario-de-Pacientes.git
-cd Prontuario-de-Pacientes
+cd Automacao-NF
 ```
 
 4. **Instale as dependências do projeto:**
@@ -79,18 +79,25 @@ cd Prontuario-de-Pacientes
 pip install -r requirements.txt
 ```
 
-5. **Crie o banco de dados e um usuário inicial para login:**
+5. **Configure sua chave de API do OpenRouter:**
 
-Execute o script `create-db.py`:
+Para que a IA funcione corretamente, você precisa gerar uma chave de API gratuita:
 
-```bash
-python create-db.py
+Acesse: https://openrouter.ai
+
+Clique em “Sign in with Google” para fazer login.
+
+Após o login, vá até: https://openrouter.ai/keys
+
+Clique em “Create new key” e copie a chave gerada.
+
+No seu projeto, abra o arquivo openai_api.py e substitua a string "<SUA CHAVE AQUI>" pela sua chave copiada.
+
+Exemplo:
+
+```python
+API_KEY = "sk-or-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 ```
-
-> Após a execução, será criado um usuário padrão com:
->
-> * **Email:** `teste@empresa.com`
-> * **Senha:** `12345`
 
 6. **Execute o projeto:**
 
