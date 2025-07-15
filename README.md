@@ -91,7 +91,7 @@ Após o login, vá até: https://openrouter.ai/keys
 
 Clique em “Create new key” e copie a chave gerada.
 
-No seu projeto, abra o arquivo openai_api.py e substitua a string "<SUA CHAVE AQUI>" pela sua chave copiada.
+No seu projeto, abra o arquivo openai_api.py e substitua a string "<s>" pela sua chave copiada.
 
 Exemplo:
 
@@ -102,7 +102,5 @@ API_KEY = "sk-or-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 6. **Execute o projeto:**
 
 ```bash
-python main.py
+python leitor.py
 ```
-
-Acesse o sistema através do link gerado no terminal (geralmente `http://127.0.0.1:5000`).
