@@ -70,7 +70,7 @@ venv\Scripts\activate
 3. **Clone este repositório(requer o Git instalado) e navegue até a pasta correta:**
 
 ```bash
-git clone https://github.com/nicolasandreos/Prontuario-de-Pacientes.git
+git clone https://github.com/nicolasandreos/Automacao-NF.git
 cd Automacao-NF
 ```
 
