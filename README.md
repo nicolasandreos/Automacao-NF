@@ -28,6 +28,7 @@ Os dados extraídos — como fornecedor, número da nota, valor do frete, valor 
 - `openai_api.py`: Módulo com a função gerar_resposta() que envia prompts para o modelo de linguagem (via API).
 - `bin/`: Pasta que deve conter os executáveis do Poppler para conversão dos PDFs em imagens.
 - `notas/`: Pasta onde ficam os arquivos PDF.
+- `Tesseract-OCR/`: Pasta onde fica o executável tesseract.exe, necessário para a extração dos textos.
 - `protocolo.xlsx`: Arquivo Excel no qual os dados extraídos são salvos/atualizados.
 
 ## 📸 Imagens
