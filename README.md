@@ -34,9 +34,9 @@ Os dados extraídos — como fornecedor, número da nota, valor do frete, valor 
 ## 📸 Imagens
 
 
-![Execução do Script](imgs/execucao_script.png)
-
 ![Modelo Planilha](imgs/modelo_planilha.png)
+
+![Execução do Script](imgs/execucao_script.png)
 
 ![Planilha Final](imgs/planilha_final.png)
 
