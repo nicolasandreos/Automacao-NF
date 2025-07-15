@@ -33,22 +33,11 @@ Os dados extraídos — como fornecedor, número da nota, valor do frete, valor 
 ## 📸 Imagens
 
 
-![Login](screenshots/login.png)
+![Execução do Script](imgs/execucao_script.png)
 
+![Modelo Planilha](imgs/modelo_planilha.png)
 
-![Cadastro de Pacientes](screenshots/cadastro-paciente.png)
-
-
-![Lista de Prontuários](screenshots/lista-pacientes.png)
-
-
-![Campo de busca](screenshots/busca.png)
-
-
-![Edição de Pacientes](screenshots/edicao.png)
-
-
-![Exclusão de Pacientes](screenshots/exclusao.png)
+![Planilha Final](imgs/execucao_script.png)
 
 
 ## 🧪 Como executar o projeto localmente
