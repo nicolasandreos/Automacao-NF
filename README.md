@@ -91,7 +91,7 @@ Após o login, vá até: https://openrouter.ai/keys
 
 Clique em “Create new key” e copie a chave gerada.
 
-No seu projeto, abra o arquivo openai_api.py e substitua a string "<s>" pela sua chave copiada.
+No seu projeto, abra o arquivo openai_api.py e substitua a string `<s>` pela sua chave copiada.
 
 Exemplo:
 
